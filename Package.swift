@@ -16,10 +16,10 @@ let package = Package(
         .target(
             name: "DropDown",
             dependencies: [],
-            path: "src",
-            exclude: ["../Info.plist", "../DropDown.h"],
+            path: "DropDown",
+            exclude: ["Info.plist", "DropDown.h"],
             resources: [
-              .process("../resources")
+              .process("DropDown/resources")
             ]
         )
     ],
